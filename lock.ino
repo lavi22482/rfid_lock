@@ -8,7 +8,7 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 intance
 Servo myservo;
 
 //The card ID to which we will grant access
-byte knownCard[] = {0xc3, 0x10, 0x87, 0x11};
+byte knownCard[] = {0x33, 0x13, 0x27, 0xf7};
 
 void setup() {
   // put your setup code here, to run once:
