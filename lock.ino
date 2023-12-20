@@ -41,7 +41,7 @@ void loop() {
     }
     else
     {
-     myservo.write(100);
+     myservo.write(180);
      lock=0;
      delay(1000);
     }
